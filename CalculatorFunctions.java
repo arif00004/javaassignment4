@@ -4,11 +4,12 @@ public class CalculatorFunctions {
         System.out.println("Turn on Calculator");
     }
 
-    public void add () {
-        int a = 20;
-        int b = 21;
+    public int add () {
+        int a = 41;
+        int b = 41;
     int result = a + b;
         System.out.println("Addition result:" + result);
+        return result;
     }
 
     public void deduct () {
